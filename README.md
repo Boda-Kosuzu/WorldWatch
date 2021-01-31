@@ -1,25 +1,21 @@
-# watch
+# World Watch
 
-> An electron-vue project
+世界各地の現在時刻を複数個表示するアプリケーションです。
+表示するだけではなく、OBSなどの配信ツールでウィンドウキャプチャすることが可能です。
 
-#### Build Setup
+## インストール方法
 
-``` bash
-# install dependencies
-npm install
+Releasesから最新版のzipファイルをダウンロードします。
+解凍後、watchフォルダー内の`watch Setup 0.0.1.exe`を起動します。
+起動するとインストールが開始され、完了すると自動的にアプリが起動します。
+一度インストールするとデスクトップにショートカットが作成されるので、そちらから起動できます。
 
-# serve with hot reload at localhost:9080
-npm run dev
+![インストール](./install.png)
 
-# build electron application for production
-npm run build
+## 操作方法
 
+Escキーを押すことで設定が開きます。
+設定画面では時計の追加、それぞれの時計のタイムゾーン、フォント、色などの設定が可能です。
+不要な時計は削除ボタンで消すことも可能です。
 
-# lint all JS/Vue component files in `src/`
-npm run lint
-
-```
-
----
-
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[45a3e22](https://github.com/SimulatedGREG/electron-vue/tree/45a3e224e7bb8fc71909021ccfdcfec0f461f634) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+設定画面を閉じる場合は再度Escキーを押してください。
